@@ -36,5 +36,8 @@
             "binaryPath": "/home/bham/C-Practice/Functions",
             "binaryArgs": []
         }
-    ]
+    ],
+    "remote.SSH.remoteServerListenOnSocket": false,
+    "terminal.integrated.allowInUntrustedWorkspace": false,
+    "terminal.integrated.customGlyphs": false
 }
