@@ -1,0 +1,40 @@
+{
+    "makefile.makefilePath": "Makefile",
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/home/bham/C-Practice",
+            "binaryPath": "/home/bham/C-Practice/Variables",
+            "binaryArgs": []
+        },
+        {
+            "cwd": "/home/bham/C-Practice",
+            "binaryPath": "/home/bham/C-Practice/Printf",
+            "binaryArgs": []
+        },
+        {
+            "cwd": "/home/bham/C-Practice",
+            "binaryPath": "/home/bham/C-Practice/Numbers",
+            "binaryArgs": []
+        },
+        {
+            "cwd": "/home/bham/C-Practice",
+            "binaryPath": "/home/bham/C-Practice/Constants",
+            "binaryArgs": []
+        },
+        {
+            "cwd": "/home/bham/C-Practice",
+            "binaryPath": "/home/bham/C-Practice/UserInput",
+            "binaryArgs": []
+        },
+        {
+            "cwd": "/home/bham/C-Practice",
+            "binaryPath": "/home/bham/C-Practice/Arrays",
+            "binaryArgs": []
+        },
+        {
+            "cwd": "/home/bham/C-Practice",
+            "binaryPath": "/home/bham/C-Practice/Functions",
+            "binaryArgs": []
+        }
+    ]
+}

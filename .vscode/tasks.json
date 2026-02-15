@@ -1,0 +1,16 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "make: Variables",
+      "type": "shell",
+      "command": "make",
+      "args": ["Variables"],
+      "options": {
+        "cwd": "${workspaceFolder}/Variables"
+      },
+      "problemMatcher": ["$gcc"],
+      "group": "build"
+    }
+  ]
+}

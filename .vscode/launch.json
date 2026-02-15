@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Variables",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/Variables/Variables",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}/Variables",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "preLaunchTask": "make: Variables"
+    }
+  ]
+}
