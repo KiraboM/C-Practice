@@ -35,6 +35,11 @@
             "cwd": "/home/bham/C-Practice",
             "binaryPath": "/home/bham/C-Practice/Functions",
             "binaryArgs": []
+        },
+        {
+            "cwd": "/home/bham/C-Practice",
+            "binaryPath": "/home/bham/C-Practice/files",
+            "binaryArgs": []
         }
     ],
     "remote.SSH.remoteServerListenOnSocket": false,

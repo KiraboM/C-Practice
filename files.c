@@ -2,12 +2,18 @@
 #include <stdlib.h>
 
 int main(){
-    FILE* fptr
-    fptr = fopen("text.txt", "r");
+    FILE* fptr;
+    fptr = fopen("newFile.txt", "w");
+
+    fputs("I Hate C Programming\n", fptr);
+    fputs("I Love Java\n", fptr);
     
-    if(fptr != NULL){
-        printf("File open successful");
+    /* if(fptr != NULL){
+        while(fgets(content, 1000, fptr)){
+            printf("File content: %s", content);
+        }
     }else{
-        printf("File open successful");
-    }
+        printf("File open Unsuccessful");
+    } */
+    fclose(fptr);
 }

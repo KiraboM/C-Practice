@@ -1,12 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <pthread.h>
 
-int count = 1;
+void *computation();
 
-void *functionCount1(){
-    for(;;){
-        pthread_mutex_lock(&count_mutex);
-        count++;
-        printf("Counter value functionCount1: %d\n", count);
-    }
+void *computation(){
+    printf("Computation\n");
+    return NULL;
+}
+
+int main(){
+
+    pthread_t thread1;
+
+    pthread_create(&thread1, NULL, computation, NULL);
+
+    pthread_join(thread1, NULL);
+    return 0;
 }
