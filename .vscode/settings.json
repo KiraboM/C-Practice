@@ -45,6 +45,11 @@
             "cwd": "/home/bham/C-Practice",
             "binaryPath": "/home/bham/C-Practice/pthreads",
             "binaryArgs": []
+        },
+        {
+            "cwd": "/home/bham/C-Practice",
+            "binaryPath": "/home/bham/C-Practice/cond_var_threads",
+            "binaryArgs": []
         }
     ],
     "remote.SSH.remoteServerListenOnSocket": false,
