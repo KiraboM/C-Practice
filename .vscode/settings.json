@@ -40,6 +40,11 @@
             "cwd": "/home/bham/C-Practice",
             "binaryPath": "/home/bham/C-Practice/files",
             "binaryArgs": []
+        },
+        {
+            "cwd": "/home/bham/C-Practice",
+            "binaryPath": "/home/bham/C-Practice/pthreads",
+            "binaryArgs": []
         }
     ],
     "remote.SSH.remoteServerListenOnSocket": false,
